@@ -1,0 +1,34 @@
+/* Css Preview */
+.acf-block-preview a{
+	pointer-events: none;
+}
+
+/* ------  */
+
+.test_block .cta-pj .pj-btn {
+    margin: 16px 0;
+    background: #e00648;
+    border-radius: 4px;
+    color: #fff;
+    padding: 14px 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    border: 2px solid #e00648;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.test_block .cta-pj .pj-btn:hover{
+  border: 2px solid #e00648;
+  background: transparent;
+  color: #e00648;
+}
+
+.test_block .cta-pj .pj-btn.full {
+    display: block;
+}
